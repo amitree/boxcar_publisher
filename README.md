@@ -4,14 +4,14 @@ boxcar\_publisher
 Installation
 -----
 
-```
+```ruby
 gem install boxcar_publisher
 ```
 
 Usage
 -----
 
-```
+```ruby
 BoxcarPublisher.setup do |config|
   config.access_key 'THIS_IS_MY_ACCESS_KEY'
   config.secret_key 'THIS_IS_MY_SECRET_KEY'
