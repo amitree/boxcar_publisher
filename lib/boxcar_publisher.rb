@@ -51,5 +51,10 @@ class BoxcarPublisher
         end
       end
     end
+
+    def delete
+      result = BoxcarPublisher._conn.delete "push/#{id}"
+      raise "Expected repsonse to have HTTP status 202, received #{result.status}" unless result.status == 202
+    end
   end
 end

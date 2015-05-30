@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name         = 'boxcar_publisher'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.date         = Date.today.to_s
   spec.summary      = "Publisher API for boxcar.io"
   spec.description  = "Send push notifications with Boxcar.io"
